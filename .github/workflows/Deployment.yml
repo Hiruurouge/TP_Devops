@@ -22,7 +22,7 @@ jobs:
       - name: List Files in Distribution Directory
         run: ls -R ./dist
       - name: Deploy
-        uses: hiruurouge/TP_Devops/@v1
+        uses: hiruurouge/TP_Devops/@main
         with:
           target_branch: gh-pages
           build_dir: ./dist
