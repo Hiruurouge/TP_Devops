@@ -10,7 +10,7 @@
     "ci:clean": "rimraf ./dist",
     "ci:test": "ng test --watch=false --browsers=ChromeHeadlessCustom --code-coverage",
     "ci:build": "ng build --prod",
-    "deploy": "ng deploy --base-href=/tpDevops/ --email='salablab.wassim@gmail.com' --branch='page' --no-silent"
+    "deploy": "ng deploy --base-href=/tpDevops/ --email='jolmamboundou@gmail.com' --branch='page' --no-silent"
 
   },
   "private": true,
